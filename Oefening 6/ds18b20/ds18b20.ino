@@ -12,7 +12,7 @@
 // pullup: 4.7kOhm tussen 2 en 3
 
 
-int pinData = 4;
+int pinData = 10;
 OneWire ds(pinData);
 byte addr[8];
 byte type_s;
